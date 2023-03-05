@@ -20,19 +20,29 @@
             loading-screen="enabled: false;"
             arjs="sourceType: webcam; debugUIEnabled: false;"
         >
+                <!-- HORARIO AULA ADA -->
                 <a-image
-                    src="assets/asset.png"
+                    src="assets/horarioAda.png"
                     look-at="[gps-camera]"
                     scale="1 1 1"
-                  
-                    gps-entity-place="latitude: 24.083674; longitude: -110.304444;"
+                    
+                    gps-entity-place="latitude: 24.102696; longitude: -110.316146;"
                 ></a-image>
+                <!-- HORARIO AULA PASCAL -->
                 <a-image
-                    src="assets/asset.png"
+                    src="assets/horarioPascal.png"
                     look-at="[gps-camera]"
                     scale="1 1 1"
                 
-                    gps-entity-place="latitude: 24.083658; longitude: -110.304341;"
+                    gps-entity-place="latitude: 24.102533; longitude: -110.316209;"
+                ></a-image>
+                <!-- HORARIO DE EVENTOS POLIFORO -->
+                <a-image
+                    src="assets/eventosPoliforo.png"
+                    look-at="[gps-camera]"
+                    scale="1 1 1"
+                
+                    gps-entity-place="latitude: 24.10205; longitude: -110.315974;"
                 ></a-image>
 
             <a-camera gps-camera rotation-reader></a-camera>
